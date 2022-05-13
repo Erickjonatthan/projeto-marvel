@@ -34,10 +34,17 @@
     .selecao-de-personagens .personagem-grande{
         display: none;
     }
+
+
+    .selecao-de-personagens .caixa-botao {
+          bottom: 220px;
+    
+    }
 }
 
 @media(max-width: 360px){
     .cabecalho .titulo{
         font-size: 19px;
     }
+
 }
