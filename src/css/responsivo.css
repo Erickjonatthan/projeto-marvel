@@ -31,11 +31,7 @@
     .cabecalho .titulo{
         font-size: 22px;
     }
-        .selecao-de-personagens .lista-de-personagens {
-            
-            margin-bottom: 220px;
-           
-        }
+     
     .selecao-de-personagens .personagem-grande{
         display: none;
     }
