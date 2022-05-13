@@ -48,3 +48,9 @@
     }
 
 }
+@media(max-width: 670px){
+     .selecao-de-personagens .caixa-botao {
+            bottom: 100px;
+    
+        }
+}
