@@ -38,5 +38,20 @@
       text-shadow: 0 0 .5px var(--cor-marrom-fraco), 0 0 .5px var(--cor-marrom-fraco), 0 0 .5px var(--cor-marrom-fraco), 0 0 .5px var(--cor-vermelha-fraca), 0 0 5px var(--cor-vermelha-fraca), 0 0 .5px var(--cor-vermelha-fraca), 0 0 5px var(--cor-vermelha-fraca), 0 0 2px var(--cor-vermelha-fraca)
     }
   }
+    @keyframes pisca {
+  
+      0%,
+      50%,
+      100% {
+        background: rgb(245, 124, 124);
+        color: rgb(82, 29, 29);
+      }
+  
+      51%,
+      99% {
+        background: transparent;
+        color: transparent;
+      }
+    }
   
   /* FIM ANIMAÇÕES */

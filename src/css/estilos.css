@@ -31,7 +31,7 @@ main{
     color: var(--cor-titulo-fraco);
     -webkit-text-stroke: 2px var(--cor-titulo-forte);
     text-transform: uppercase;
-    font-size: 52px;
+    font-size: 48px;
     line-height: 102px;
     
 }
@@ -53,6 +53,7 @@ main{
     position: absolute;
     left: 46%;
     top: 46%;
+    height: 100%;
     transform: translate(-50%, -50%);
 }
 
@@ -86,6 +87,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
+   
     margin-bottom: 50px; 
     justify-content: center;
     gap: 12px;
@@ -161,29 +163,22 @@ main{
     display: block;
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
+    
 }
 
 .selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado .tag{
     display: block;
     animation: text-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
+     visibility: hidden;
+    
+}
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado .tag::before {
+    visibility: visible;
+    content: "2P";
 }
 
-@keyframes pisca {
 
-    0%,
-    50%,
-    100% {
-        background: rgb(245, 124, 124);
-        color: rgb(82, 29, 29);
-    }
-
-    51%,
-    99% {
-        background: transparent;
-        color:transparent;
-    }
-}
 
 .selecao-de-personagens .botao{
     position: absolute;
@@ -206,8 +201,13 @@ main{
 }
 
 
-.selecao-de-personagens .lista-de-personagens .personagem.jogador-1-selecionado.escolhido .tagEscolhido {
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-1-selecionado.escolhido1 .tagEscolhido {
     display: block;
     animation: text-glowing-red .3s ease-in-out infinite;
+    animation-direction: alternate;
+}
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-1-selecionado.escolhido2 .tagEscolhido {
+    display: block;
+    animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
 }

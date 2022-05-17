@@ -16,6 +16,12 @@
              margin-left: 22px;
              font-size: 8px;
          }
+        .selecao-de-personagens .personagem-grande img {
+          
+         
+            height: 85%;
+     
+        }
          
 
 }
@@ -69,4 +75,13 @@
             font-size: 8px;
         }
 }
+@media(max-width: 1440px) {
+.selecao-de-personagens .personagem-grande img {
 
+
+        height: 80%;
+
+    }
+            
+
+}
