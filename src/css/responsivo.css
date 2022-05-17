@@ -12,6 +12,12 @@
         width: 100px;
         height: 100px;
     }
+         .selecao-de-personagens .lista-de-personagens .personagem .tagEscolhido {
+             margin-left: 22px;
+             font-size: 8px;
+         }
+         
+
 }
 
 @media (max-width: 767px){
@@ -37,9 +43,13 @@
     }
 
 
-    .selecao-de-personagens .caixa-botao {
+    .selecao-de-personagens .botao {
           bottom: 220px;
     
+    }
+    .selecao-de-personagens .lista-de-personagens .personagem .tagEscolhido {  
+         margin-left: 22px;
+         font-size: 8px;
     }
 }
 
@@ -50,8 +60,13 @@
 
 }
 @media(max-width: 670px){
-     .selecao-de-personagens .caixa-botao {
+        .selecao-de-personagens .botao {
             bottom: 40px;
     
         }
+        .selecao-de-personagens .lista-de-personagens .personagem .tagEscolhido {
+            margin-left: 22px;
+            font-size: 8px;
+        }
 }
+
